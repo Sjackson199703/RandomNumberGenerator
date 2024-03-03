@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Random Generator</h1>
+    <label for="minInput">Minimum Number:</label>
+    <input type="number" id="minInput" step="any" value="0">
+    <br>
+
+    <label for="maxInput">Maximum Number:</label>
+    <input type="number" id="maxInput" step="any" value="100">
+    <br>
+
+    <label for="countInput">Number of Random Numbers:</label>
+    <input type="number" id="countInput" min="1" max="5" value="1">
+    <br>
+
+    <label for="allowNegative">Allow Negative Numbers:</label>
+    <input type="checkbox" id="allowNegative">
+    <br>
+
+    <label for="allowDecimal">Allow Decimal Numbers:</label>
+    <input type="checkbox" id="allowDecimal">
+    <br>
+
+    <label for="allowPercentage">Allow Percentages:</label>
+    <input type="checkbox" id="allowPercentage">
+    <br>
+
+    <div id="result">Click the button to generate</div>
+    <button id="generateBtn">Generate</button>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
